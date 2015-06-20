@@ -31,6 +31,6 @@ public class StudentController {
 	public String getStudentName() {
 		Student student = studentMapper.getStudent(1);
 		System.out.println(student.getName());
-		return student.getName();
+		return student.getName()+1;
 	}
 }
